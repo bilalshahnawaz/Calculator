@@ -38,4 +38,7 @@ def create_window():
             )
             button.grid(column=column_position, row=row_position, padx=2)
 
+    main_window.minsize(width, height)
+    main_window.maxsize(width + 50, height + 50)
+
     main_window.mainloop()
